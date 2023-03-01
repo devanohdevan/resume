@@ -5,13 +5,13 @@ body {
     max-width: 700px;
     display: flex;
     align-items: flex-start;
-    font-size: 10pt;
+    font-size: 11pt;
     font-weight: lighter;
   }
   
   div#left-column {
     flex: 1 1 400px;
-    padding: 1em;
+    padding: 2em;
     line-height: 1.5em;
   }
   
@@ -67,4 +67,32 @@ body {
   .date-range {
     font-family: sans-serif;
     font-style: italic;
+  }
+
+   #contact {
+ text-align: left;
+
+  }
+  style   * {
+    box-sizing: border-box;
+  }
+  .container {
+    width: 50%;
+    background-color: #ddd;
+  }
+
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+
+  .HTML {
+    width: 40%;
+    background-color: #04aa6d;
+  }
+  .CSS {
+    width: 30%;
+    background-color: #2196f3;
   }
